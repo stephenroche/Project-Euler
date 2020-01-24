@@ -35,7 +35,7 @@ import math
 pentagonals = [0, 1]
 k = 1
 min_D = math.inf
-while k < len(pentagonals) and k < 1000:
+while k < len(pentagonals) and k < 100:
 	while pentagonals[-1] < 2 * pentagonals[k]:
 		pentagonals += [pentagonal(len(pentagonals))]
 	# print(pentagonals[k], pentagonals)
